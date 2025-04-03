@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "timmerapp",
+    "name": "Timmerly",
     "slug": "timmerapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,8 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#f4e9d9"
+      },
+      "package": "com.princehabeeb.timmerapp"
     },
     "web": {
       "bundler": "metro",
@@ -30,12 +31,20 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#f4e9d9"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "96f597c7-b470-49d0-afb4-14f3e362c57b"
+      }
     }
   }
 }
